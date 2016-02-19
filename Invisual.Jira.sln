@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24606.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisual.SystemTray.Interop", "Invisual.SystemTray.Interop\Invisual.SystemTray.Interop.csproj", "{BDD0FE1F-B84A-4E48-8FF1-D2DB7D98F8D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisual.Jira.Api", "Invisual.Jira.Api\Invisual.Jira.Api.csproj", "{ACDE980C-99EB-4767-9A81-923AEA1986E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{DF029F32-1DC6-4F86-BFC2-ABF762AA882C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Utilities\Tester\Tester.csproj", "{9DA5F482-C125-4AC9-9159-2F945FF110C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisual.Jira.Tasky", "Invisual.Jira.Tasky\Invisual.Jira.Tasky.csproj", "{0AD45BBF-3E02-4125-8B90-2BF24C13432E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisual.Jira.Tasky.BusinessLogic", "Invisual.Jira.Tasky.BusinessLogic\Invisual.Jira.Tasky.BusinessLogic.csproj", "{2461DE85-C6B0-4AB4-A374-620593BE4937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD0FE1F-B84A-4E48-8FF1-D2DB7D98F8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD0FE1F-B84A-4E48-8FF1-D2DB7D98F8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD0FE1F-B84A-4E48-8FF1-D2DB7D98F8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD0FE1F-B84A-4E48-8FF1-D2DB7D98F8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDE980C-99EB-4767-9A81-923AEA1986E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDE980C-99EB-4767-9A81-923AEA1986E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDE980C-99EB-4767-9A81-923AEA1986E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDE980C-99EB-4767-9A81-923AEA1986E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA5F482-C125-4AC9-9159-2F945FF110C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA5F482-C125-4AC9-9159-2F945FF110C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA5F482-C125-4AC9-9159-2F945FF110C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA5F482-C125-4AC9-9159-2F945FF110C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD45BBF-3E02-4125-8B90-2BF24C13432E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD45BBF-3E02-4125-8B90-2BF24C13432E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD45BBF-3E02-4125-8B90-2BF24C13432E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD45BBF-3E02-4125-8B90-2BF24C13432E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2461DE85-C6B0-4AB4-A374-620593BE4937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2461DE85-C6B0-4AB4-A374-620593BE4937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2461DE85-C6B0-4AB4-A374-620593BE4937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2461DE85-C6B0-4AB4-A374-620593BE4937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DA5F482-C125-4AC9-9159-2F945FF110C6} = {DF029F32-1DC6-4F86-BFC2-ABF762AA882C}
+	EndGlobalSection
+EndGlobal
